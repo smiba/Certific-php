@@ -5,6 +5,9 @@
 // Wroker script for Certific, this script picks up jobs and processes them.
 // This script is intended to be ran through the shell and will provide it's status through stdout
 
+//Use: php worker.php
+//Example: php worker.php
+
 // Script NEEDS PHP7.3 or higher!
 
 set_time_limit(0); //As this script is intended to run in a loop, explicitly state we don't want a time_limit

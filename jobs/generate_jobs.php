@@ -4,6 +4,9 @@
 
 // Job generation for PHP based CT Log downloader - This will populate the jobs table for workers to pick-up
 
+//Use: php generate_jobs.php <CT Log> [Start ID] [End ID]
+//Example: php generate_jobs.php ct.googleapis.com/logs/us1/argon2024 
+
 set_time_limit(900); //Kill script after 900 seconds (15 min)
 
 // Base values - These get populated as the code runs through its routines
