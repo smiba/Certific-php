@@ -18,6 +18,6 @@ This is a project that was originally started in 2019 and stranded in 2020. We'v
 5. Start one or more workers, you will want to run these headless or in a screen.     
    ```php jobs/worker.php```
 
-Workers can be left open at all times, they will run idle when all jobs are done and will start picking up work as new jobs appear. 
+Workers can and should be left running for proper operation, they will run idle when all jobs are done and will start picking up work as new jobs are generated. 
 
-This readme and the whole software as a whole is very much unfinished, although it will totally work. PR's are appriciated. 
+This readme and software as a whole is very much unfinished, although it will work just fine. PR's are appriciated. 
